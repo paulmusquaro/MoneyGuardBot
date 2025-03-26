@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "moneyguardbot"
+version = "0.1.0"
+description = ""
+authors = ["paulmusquaro <136118097+paulmusquaro@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.39"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.0"
+aiosqlite = "^0.21.0"
+alembic = "^1.15.1"
+httpx = "^0.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
