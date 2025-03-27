@@ -1,3 +1,17 @@
 cd backend\app
 
 python main.py
+
+cd bot
+
+python bot.py
+
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+
+API_TOKEN = os.getenv("BOT_API_TOKEN")
+API_URL = 'http://localhost:8000'
